@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "node script.js"
   },
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "node": "^20.19.0",
     "servor": "^4.0.2"
   }
 }
